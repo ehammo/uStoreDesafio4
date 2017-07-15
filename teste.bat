@@ -1,3 +1,4 @@
+@echo off
 mkdir uStore_UselessFiles
 cd uStore_UselessFiles
 FOR /L %%G IN (1,1,100) DO echo uStore Useless File number %%G > %%G.txt
